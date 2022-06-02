@@ -1,0 +1,18 @@
+name: Deploy Metaverse Service Online
+
+on:
+  pull_request:
+    branches:
+      - main
+    
+
+jobs:
+  # test all the code used by the person metaverse
+  TestCodes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: | 
+          cd metaverse-person 
+          npm install
+          npm run 

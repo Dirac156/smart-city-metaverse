@@ -1,1 +1,7 @@
-# find-me-api
+# VIRTUAL SMART CITY
+
+## Vision
+
+## Documentation
+
+ 
