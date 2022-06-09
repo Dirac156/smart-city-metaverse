@@ -1,7 +1,7 @@
-from blockchain.block import Block
+from blockchain.blockchain import Blockchain
 
 # test creation of new block
 
-newBlock = Block({"hey": "hey"}, "previous hash")
+BC = Blockchain()
 
-print(newBlock.printMe())
+BC.print_blockchain()
